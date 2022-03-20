@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/lightGray">
+
+    <!-- FART NOISES -->
+    <LinearLayout
+        android:id="@+id/fartNoises"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/carrotOrange"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/fartHeading"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="FART NOISES"
+            android:textStyle="bold"
+            android:textColor="@color/gunMetal"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+       <LinearLayout
+           android:id="@+id/fartNoisesButtons"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_margin="5dp"
+           android:orientation="horizontal"
+           >
+
+           <Button
+               android:id="@+id/fart1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="3dp"
+               android:layout_weight="1"
+               android:text="1"
+               android:onClick="NoiseProduce"/>
+
+           <Button
+               android:id="@+id/fart2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="2"
+               android:layout_margin="3dp"
+               android:onClick="NoiseProduce"/>
+
+           <Button
+               android:id="@+id/fart3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="3"
+               android:layout_margin="3dp"
+               android:onClick="NoiseProduce"/>
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fartNoisesButtons2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/fart4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:layout_margin="3dp"
+                android:onClick="NoiseProduce"/>
+
+            <Button
+                android:id="@+id/fart5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:layout_margin="3dp"
+                android:onClick="NoiseProduce"/>
+
+            <Button
+                android:id="@+id/fart6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6"
+                android:layout_margin="3dp"
+                android:onClick="NoiseProduce"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- ANIMAL NOISES -->
+    <LinearLayout
+        android:id="@+id/animalNoises"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/carrotOrange"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/animalHeading"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="ANIMAL NOISES"
+            android:textStyle="bold"
+            android:textColor="@color/gunMetal"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:id="@+id/animalNoisesButtons"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/animal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:text="7"
+                android:onClick="NoiseProduce"/>
+
+            <Button
+                android:id="@+id/animal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="8"
+                android:layout_margin="3dp"
+                android:onClick="NoiseProduce"/>
+
+            <Button
+                android:id="@+id/animal3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9"
+                android:layout_margin="3dp"
+                android:onClick="NoiseProduce"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/animalNoisesButtons2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/animal4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10"
+                android:layout_margin="3dp"
+                android:onClick="NoiseProduce"/>
+
+            <Button
+                android:id="@+id/animal5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="11"
+                android:layout_margin="3dp"
+                android:onClick="NoiseProduce"/>
+
+            <Button
+                android:id="@+id/animal6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="12"
+                android:layout_margin="3dp"
+                android:onClick="NoiseProduce"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
